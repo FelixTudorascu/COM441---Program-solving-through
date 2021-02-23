@@ -1,1 +1,1 @@
-# COM441---Program-solving-through
+# COM441---Program-solving-through-programming
