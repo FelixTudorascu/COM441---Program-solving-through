@@ -1,35 +1,47 @@
-<<<<<<< HEAD
-#program that displays a menu and allows the user to eighter see a nice message, calculate of rectangle or triangle or display a times table for a number.
 
-print("please choose and option from the menu:\n\n1-Nice message\n 2 - Area of rectangle\n 3 - Area of triangle\n 4 - Times table")
+#We wish to create a program that allows us to specify what type of book is being read by Beep.
+#The program should start by asking the user to enter the type of book e.g. adventure.
+#If the book is an "adventure" book then the message "I like adventure books!" should be displayed.
+#Finally, the program should display "Finished reading book!" .
+
+print("What type of book is this?")
+answer = input()
+if answer == "adventure":
+   print("I like adventure books!")
+else: 
+    print("Task in progress")
+print("Finished reading book!")
+
+#=============================================
+#We wish to create a program that allows us to help Beep by suggesting activities for Beep to complete.
+#The program should start by asking the user to enter an activity.
+#If the activity is "calculate" then the message "Performing calculations..." should be displayed otherwise the message "Performing activity..." should be displayed.
+#Finally, the program should display "Activity completed!".
+
+print("Please enter the activity to be performed?")
+print("1 - Calculate")
+print("2 - Test")
+print("3 - Test")
 
 option = int(input())
 
 if option == 1:
-  print("today will be a good day!")
-elif option == 2:
-  print("Enter the lenght of the rectangle:")
-  l = int(input())
-  print("Enter the width of the rectangle:")
-  w = int(input())
-  area = w*l
-  print("The area of this rectangle was {}" .format(area))
-elif option == 3:
-   print("Enter the base of the triangle:")
-   b = float(input())
-   print("Enter the height of the triangle:")
-   h = float(input())
-   area = 0.5*(b*h)
-   print("The area of this triangle was {:.2f}" .format(area)) #{:.2} - cate decimale sa ia 
-elif option == 4:
-  print("What number would you like to see times table for ?")
-  n = int(input())
-  for i in range(1,11,1):
-    #va incepe de la 1, va ajunge la 11 dar nu il va include, si va merge din 1 in 1)
-    print("{}x{}={}".format(n,i,n*i))
+  print("Calculate")
+  print("Performing calculations...")
+  print("Activity completed!")
 
-else:
-  print("there is no such option. Go to specsevers!")
-=======
-print("hello")
->>>>>>> 46ab14c265eac9be932d8ccd05703ba48c8ea6d7
+#================================================
+#We wish to create a program that allows us to help Beep learn to paint.
+#The program should start by prompting the user for a directi on to move the paint brush (up, down, left or right).
+#The program should then work out in which direction Beep should paint and display a suitable message.
+
+print("Towards which direction should I paint (up, down, left or right?")
+direction = input()
+if direction == "up":
+   print("Go up")
+elif direction == "down": 
+    print("Go down")
+elif direction == "right":
+    print("Go right")
+elif direction == "left":
+    print("Go left")
