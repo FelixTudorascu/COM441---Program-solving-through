@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #program that displays a menu and allows the user to eighter see a nice message, calculate of rectangle or triangle or display a times table for a number.
 
 print("please choose and option from the menu:\n\n1-Nice message\n 2 - Area of rectangle\n 3 - Area of triangle\n 4 - Times table")
@@ -29,3 +30,6 @@ elif option == 4:
 
 else:
   print("there is no such option. Go to specsevers!")
+=======
+print("hello")
+>>>>>>> 46ab14c265eac9be932d8ccd05703ba48c8ea6d7
