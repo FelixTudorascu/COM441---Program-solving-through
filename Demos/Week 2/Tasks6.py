@@ -30,6 +30,7 @@ if option == 1:
   print("Performing calculations...")
   print("Activity completed!")
 
+<<<<<<< HEAD
 #------------------------------------------------------------
   print("Please enter the activity to be performed ? (calculate - for example)")
 answer = input()
@@ -39,6 +40,8 @@ if answer == "calculate":
 else: 
     print("Task in progress")
 
+=======
+>>>>>>> 1c677b1c9fb31d88d237d8f1838c0a8521e3e8c6
 #================================================
 #We wish to create a program that allows us to help Beep learn to paint.
 #The program should start by prompting the user for a directi on to move the paint brush (up, down, left or right).
@@ -47,6 +50,7 @@ else:
 print("Towards which direction should I paint (up, down, left or right?")
 direction = input()
 if direction == "up":
+<<<<<<< HEAD
    print("I am painting in the upward direction!
 ")
 elif direction == "down": 
@@ -60,3 +64,12 @@ elif direction == "left":
 ")
 
 #===================================================================
+=======
+   print("Go up")
+elif direction == "down": 
+    print("Go down")
+elif direction == "right":
+    print("Go right")
+elif direction == "left":
+    print("Go left")
+>>>>>>> 1c677b1c9fb31d88d237d8f1838c0a8521e3e8c6
