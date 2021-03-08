@@ -30,7 +30,7 @@ if option == 1:
   print("Performing calculations...")
   print("Activity completed!")
 
-<<<<<<< HEAD
+
 #------------------------------------------------------------
   print("Please enter the activity to be performed ? (calculate - for example)")
 answer = input()
@@ -40,8 +40,7 @@ if answer == "calculate":
 else: 
     print("Task in progress")
 
-=======
->>>>>>> 1c677b1c9fb31d88d237d8f1838c0a8521e3e8c6
+
 #================================================
 #We wish to create a program that allows us to help Beep learn to paint.
 #The program should start by prompting the user for a directi on to move the paint brush (up, down, left or right).
@@ -50,26 +49,21 @@ else:
 print("Towards which direction should I paint (up, down, left or right?")
 direction = input()
 if direction == "up":
-<<<<<<< HEAD
-   print("I am painting in the upward direction!
-")
+   print("I am painting in the upward direction!")
 elif direction == "down": 
-    print("I am painting in the down direction!
-")
+    print("I am painting in the down direction!")
 elif direction == "right":
-    print("I am painting in the right direction!
-")
+    print("I am painting in the right direction!")
 elif direction == "left":
-    print("I am painting in the left direction!
-")
+    print("I am painting in the left direction!")
 
 #===================================================================
-=======
-   print("Go up")
-elif direction == "down": 
-    print("Go down")
-elif direction == "right":
-    print("Go right")
-elif direction == "left":
-    print("Go left")
->>>>>>> 1c677b1c9fb31d88d237d8f1838c0a8521e3e8c6
+#The program should start by prompting the user to enter a whole number.
+#The program should then work out if the number is even or odd.
+#Finally, the program should display a suitable message to indicate if the number is even or odd.
+print("Please enter a whole number.")
+number = int(input())
+if (number%2) == 0:
+    print("The number {} is an even number." .format(number))
+else: 
+    print("The number {} is an odd number." .format(number))
