@@ -67,3 +67,25 @@ if (number%2) == 0:
     print("The number {} is an even number." .format(number))
 else: 
     print("The number {} is an odd number." .format(number))
+print("Thank you ! Have a lovely day!")
+#=============================================================
+
+#The program should start by prompting the user to enter the first number.
+#The program should then read in the user’s first number.
+#The program should then prompt the user to enter the second number.
+#The program should then read in the user’ s second number.
+#The program should then decide which of the two numbers is the smallest and display the message "The first number is the smallest!" if the first number is smaller, "The second number is the smallest!" if the second number is smaller or "Both are equal!" if both numbers are equal in value.
+print("Please enter the first number:")
+num1 = int(input())
+print("please enter the second number:")
+num2 = int(input())
+if num1>num2:
+  print("{} is bigger then {}" .format(num1,num2))
+elif num1<num2:
+  print("{} is smaller then {}" .format(num1,num2))
+elif num1 == num2:
+  print("{} is equal with {}" .format(num1,num2))
+print("Thank you !")
+
+#=======================================================
+#The program should ask the user to enter three numbers (one number at a time) and should work out how many of these are even and odd. Finally, the program should display the number of even numbers and odd numbers entered.
