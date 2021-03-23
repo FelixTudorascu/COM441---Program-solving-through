@@ -31,3 +31,33 @@ def run():
 
   #call for the function
   run()
+
+  #==========
+
+  phrase = input("Please enter a phrase:\n")
+
+x = 0
+
+while ( x < len(phrase) ):
+    print("Bop ", end='')
+    x += 1
+
+
+#===============
+# We wish to create a program to help Bop calculate the sum of the first 100 numbers.
+
+# The program should start by displaying the message "Calculating the sum of the first 100 numbers...". 
+# The program should then use a while loop to calculate the sum of the first 100 numbers from 1 to 100 (inclusive). Finally, the program should display the message "...Done! The answer is" followed by the answer. 
+
+print("Calculating the sum of the first 100 numbers...")
+
+sum = 0
+x = 0
+
+while ( x <= 5 ):
+    sum = sum + x
+    x+=1
+
+print(sum)
+
+
